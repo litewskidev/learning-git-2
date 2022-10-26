@@ -1,0 +1,35 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+section {
+    padding: 96px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 20px;
+    margin: 0 600px;
+}
+
+.page-title {
+    margin: 0; 
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.page-subtitle {
+    margin: 24px 0;
+    font-weight: 300;
+    font-size: 26px;
+}
