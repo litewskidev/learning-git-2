@@ -10,15 +10,21 @@ body {
 }
 
 section {
-    padding: 96px;
+    padding: 0 596px;
     display: flex;
     justify-content: flex-start;
+    text-align: left;
+}
+
+.splash {
+    display: flex;
+    justify-content: center;
 }
 
 .container {
     max-width: 1140px;
     padding: 0 20px;
-    margin: 0 600px;
+    margin: 0 auto;
 }
 
 .page-title {
@@ -31,5 +37,9 @@ section {
 .page-subtitle {
     margin: 24px 0;
     font-weight: 300;
-    font-size: 26px;
+    font-size: 18px;
+}
+
+.footer {
+    font-size: 12px;
 }
