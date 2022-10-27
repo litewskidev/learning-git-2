@@ -9,33 +9,29 @@ body {
     line-height: 1.7;
 }
 
-section {
-    padding: 0 596px;
-    display: flex;
-    justify-content: center;
-    text-align: left;
-}
-
 .splash {
     display: flex;
     justify-content: center;
 }
 
+section {
+    padding: 0 96px;
+    width: 30%;
+    margin: auto;
+}
+
 .container {
     max-width: 1140px;
     padding: 0 20px;
-    margin: 0 auto;
 }
 
 .page-title {
-    margin: 0; 
     font-size: 40px;
     font-weight: 700;
     line-height: 1.2;
 }
 
 .page-subtitle {
-    margin: 24px 0;
     font-weight: 300;
     font-size: 18px;
 }
